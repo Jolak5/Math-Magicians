@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   font-size: 16px;
 }
 
@@ -39,4 +39,43 @@ body {
 .coloredButtons {
   background-color: rgb(172, 94, 11);
   color: white;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgb(172, 94, 11);
+  transition: ease-in-out 2s;
+  animation: scroll 10s linear infinite;
+}
+
+h1:hover {
+  animation: none;
+  transform: translateX(0);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-80vw);
+  }
+
+  100% {
+    transform: translateX(80vw);
+  }
+}
+
+.dataDiv {
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20%;
+}
+
+.dataDetails {
+  color: black;
+  font-size: 22px;
+}
+
+span {
+  font-style: normal;
+  font-size: 32px;
 }
