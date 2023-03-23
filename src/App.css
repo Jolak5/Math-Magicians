@@ -55,11 +55,11 @@ h1:hover {
 
 @keyframes scroll {
   0% {
-    transform: translateX(-80vw);
+    transform: translateX(-50vw);
   }
 
   100% {
-    transform: translateX(80vw);
+    transform: translateX(50vw);
   }
 }
 
