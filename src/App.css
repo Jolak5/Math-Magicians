@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  font-size: 16px;
+}
+
+.whole {
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+}
+
+.OutputValue {
+  text-align: right;
+  color: orange;
+  background-color: rgb(60, 57, 57);
+  padding: 30px;
+}
+
+.calculatorContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(5, 70px);
+  gap: 0.5px;
+}
+
+.individualButton {
+  background-color: rgb(185, 183, 183);
+  color: black;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.fullWidth {
+  grid-column: 1 / span 2;
+}
+
+.coloredButtons {
+  background-color: rgb(172, 94, 11);
+  color: white;
+}
