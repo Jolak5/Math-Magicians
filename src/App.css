@@ -9,6 +9,8 @@ body {
   top: 50%;
   left: 50%;
   font-size: 2rem;
+  width: 482px;
+  height:500px;
 }
 
 .OutputValue {
@@ -20,7 +22,7 @@ body {
 
 .calculatorContainer {
   display: grid;
-  grid-template-columns: repeat(4, 150px);
+  grid-template-columns: repeat(4, 120px);
   grid-template-rows: repeat(5, 70px);
   gap: 0.5px;
 }
