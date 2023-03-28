@@ -14,7 +14,7 @@ export default function NavBar() {
           </div>
         </nav>
       </header>
-      <main>
+      <main className="navMenu">
         <Outlet />
       </main>
     </div>
