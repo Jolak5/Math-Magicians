@@ -3,6 +3,35 @@ body {
   font-size: 16px;
 }
 
+code {
+  font-family: 'Courier New', monospace;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: rgb(172, 94, 11);
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
 .whole {
   transform: translateY(-50%) translateX(-50%);
   position: absolute;
@@ -10,7 +39,7 @@ body {
   left: 50%;
   font-size: 2rem;
   width: 482px;
-  height:500px;
+  height: 500px;
 }
 
 .OutputValue {
@@ -43,7 +72,7 @@ body {
   color: white;
 }
 
-h1 {
+.topHeader {
   font-size: 48px;
   color: rgb(172, 94, 11);
   transition: ease-in-out 2s;
@@ -80,4 +109,25 @@ h1:hover {
 span {
   font-style: normal;
   font-size: 32px;
+}
+
+.navMenu {
+  display: flex;
+}
+
+/* This is the homepage styling */
+.homepage {
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.homepage h1 {
+  font-size: 48px;
+  color: rgb(172, 94, 11);
+}
+
+.homepage p {
+  padding: 0 20%;
+  line-height: 2rem;
+  font-size: 18px;
 }
